@@ -1,0 +1,9 @@
+.swiper {
+    height: 400px;
+    width: 800px;
+    &__img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+}
