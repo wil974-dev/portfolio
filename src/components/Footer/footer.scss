@@ -7,11 +7,18 @@
         align-items: center;
         list-style: none;
         height: 150px;
+        padding-left: 0;
+        @media (max-width: 375px) {
+            flex-direction: column;
+        }
     }
     &__link {
         color: white;
+        text-decoration: none;
     }
     &__link--active {
+        text-decoration: none;
         color: white;
+        color: #6ab9f5;
     }
 }

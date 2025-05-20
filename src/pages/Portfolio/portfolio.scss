@@ -1,3 +1,8 @@
 .portfolio {
     display: flex;
+    flex-direction: column;
+    &__description {
+        text-align: left;
+        line-height: 1.6;
+    }
 }

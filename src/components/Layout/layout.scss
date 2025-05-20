@@ -1,11 +1,12 @@
 .layout {
     display: flex;
     flex-direction: column;
+    padding: 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: white;
     min-height: 100vh;
-    background: linear-gradient(30deg, #1d2a47 0%, #0c1525 100%);
+    background: linear-gradient(180deg, #1d2a47 40%, #3b65ad 100%);
     &__main {
         flex: 1;
     }
@@ -17,5 +18,14 @@
     h6 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
+    }
+    h2 {
+        color: #4cb685;
+    }
+    h3 {
+        color: #2bbd7b;
+    }
+    main {
+        text-align: center;
     }
 }

@@ -9,6 +9,12 @@
         justify-content: space-around;
         align-items: center;
     }
+    &__nav {
+        height: 100px;
+        @media (max-width: 375px) {
+            height: 250px;
+        }
+    }
     &__name {
         font-size: 26px;
         font-weight: 800;
@@ -19,8 +25,17 @@
     }
     &__list {
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
+        align-items: center;
         list-style: none;
+        padding-left: 0;
+        @media (max-width: 375px) {
+            flex-direction: column;
+            justify-content: space-between;
+            height: auto;
+            gap: 10px;
+        }
     }
     &__item {
         background-color: #1a2935;
@@ -30,6 +45,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         border-radius: 20px;
         &:hover:has(a:not(.header__link--active)) {
             box-shadow: 0px 4px 10px rgba(189, 182, 182, 0.5);
@@ -38,6 +54,12 @@
     &__link {
         text-decoration: none;
         color: white;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
         &--active {
             text-decoration: none;
             color: #6ab9f5;

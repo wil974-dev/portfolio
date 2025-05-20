@@ -1,6 +1,7 @@
 .swiper {
-    height: 400px;
-    width: 800px;
+    max-height: 400px;
+    max-width: 800px;
+
     &__img {
         height: 100%;
         width: 100%;
