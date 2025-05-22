@@ -1,10 +1,10 @@
 import Carrousel from '../../components/Carrousel';
-import kasaUn from '../../assets/Kasa/KasaUn.png';
-import kasaDeux from '../../assets/Kasa/KasaDeux.png';
-import kasaTrois from '../../assets/Kasa/KasaTrois.png';
-import grimoireUn from '../../assets/Mon_vieux_grimoire/MonVieuxGrimoireUn.png';
-import grimoireDeux from '../../assets/Mon_vieux_grimoire/MonVieuxGrimoireDeux.png';
-import grimoireTrois from '../../assets/Mon_vieux_grimoire/MonVieuxGrimoireTrois.png';
+import kasaUn from '../../assets/Kasa/KasaUn.webp';
+import kasaDeux from '../../assets/Kasa/KasaDeux.webp';
+import kasaTrois from '../../assets/Kasa/KasaTrois.webp';
+import grimoireUn from '../../assets/Mon_vieux_grimoire/MonVieuxGrimoireUn.webp';
+import grimoireDeux from '../../assets/Mon_vieux_grimoire/MonVieuxGrimoireDeux.webp';
+import grimoireTrois from '../../assets/Mon_vieux_grimoire/MonVieuxGrimoireTrois.webp';
 import './portfolio.scss';
 
 function Portfolio() {
@@ -47,8 +47,13 @@ function Portfolio() {
                     interactive, fluide et professionnelle.
                 </p>
                 <p>
-                    Lien GitHub du projet :
-                    https://github.com/wil974-dev/Kasa.git
+                    Lien GitHub du projet : &nbsp;
+                    <a
+                        href="https://github.com/wil974-dev/Kasa.git"
+                        target="_blank"
+                    >
+                        https://github.com/wil974-dev/Kasa.git
+                    </a>
                 </p>
                 <Carrousel images={imagesKasa} />
             </div>
@@ -81,8 +86,13 @@ function Portfolio() {
                     utilisé en production.
                 </p>
                 <p>
-                    Lien GitHub du projet :
-                    https://github.com/wil974-dev/Mon_vieux_grimoire.git
+                    Lien GitHub du projet : &nbsp;
+                    <a
+                        href="https://github.com/wil974-dev/Mon_vieux_grimoire.git"
+                        target="_blank"
+                    >
+                        https://github.com/wil974-dev/Mon_vieux_grimoire.git
+                    </a>
                 </p>
                 <Carrousel images={imagesMonVieuxGrimoires} />
             </div>
