@@ -7,7 +7,7 @@ function Skills() {
             <div className="skills__frontend">
                 <h3 className="skills__hthree">Front-end</h3>
                 <p>
-                    Langage: JavaScript{' '}
+                    Langage de programmation : JavaScript{' '}
                     <i className="fa-brands fa-square-js"></i>
                 </p>
                 <p>
@@ -15,7 +15,7 @@ function Skills() {
                     <i className="fa-brands fa-react"></i>
                 </p>
                 <p>
-                    Intégration Web : HTLM 5{' '}
+                    Intégration Web : HTLM5{' '}
                     <i className="fa-brands fa-html5"></i>, CSS3{' '}
                     <i className="fa-brands fa-css"></i>, SASS{' '}
                     <i className="fa-brands fa-sass"></i>
