@@ -6,13 +6,5 @@
         height: 100%;
         width: 100%;
         object-fit: cover;
-        @media (min-width: 375px) {
-            min-height: 396px;
-            max-width: 800px;
-        }
-        @media (max-width: 375px) {
-            min-height: 176px;
-            min-width: 355px;
-        }
     }
 }
